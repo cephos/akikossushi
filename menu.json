@@ -1,0 +1,332 @@
+{
+  "announce": [
+    "Wegen des Japanfests bis 10.&nbsp;September keine Sushi-Bestellungen."
+  ],
+  "categories": [
+    {
+      "id": "platten",
+      "label": "Sushi Platten"
+    },
+    {
+      "id": "boxen",
+      "label": "Sushi-Boxen"
+    },
+    {
+      "id": "nigiri",
+      "label": "Nigiri"
+    },
+    {
+      "id": "uramaki",
+      "label": "Uramaki"
+    },
+    {
+      "id": "hosomaki",
+      "label": "Hosomaki"
+    },
+    {
+      "id": "beilagen",
+      "label": "Beilagen"
+    },
+    {
+      "id": "frozen",
+      "label": "Tiefgekühlt"
+    },
+    {
+      "id": "extras",
+      "label": "Sonstiges"
+    }
+  ],
+  "menu": [
+    {
+      "id": "pa",
+      "code": "PA",
+      "cat": "platten",
+      "name": "Sushi Platte",
+      "price": 80,
+      "img": "img/platter-pa.jpg",
+      "desc": "Fried Ebi Roll, Tunamayo Roll, Räucherlachs mit Frischkäse Roll, Lachs Avo mit Sesam Roll, Hosomaki: Gurke, Tunamayo, Avocado, Lachs (je 8 Stück)"
+    },
+    {
+      "id": "pb",
+      "code": "PB",
+      "cat": "platten",
+      "name": "Sushi Platte – Vegi Mix",
+      "price": 55,
+      "img": "img/platter-pb.jpg",
+      "desc": "Vegi Roll, Vegi mit Frischkäse Roll, Gurke und Ei mit Avo obendrauf Roll, Hosomaki: Gurke, Avocado, Karotte (je 8 Stück)"
+    },
+    {
+      "id": "a",
+      "code": "A",
+      "cat": "boxen",
+      "name": "Sushi Box",
+      "price": 18,
+      "img": "img/box-a.jpg",
+      "hasOptions": true,
+      "desc": "Uramaki (8 Stück, bis zu 2 Sorten) + Hosomaki (6 Stück, 1 Sorte), mit Beilage.",
+      "uramaki": [
+        {
+          "n": 1,
+          "label": "Tuna Mayo Roll"
+        },
+        {
+          "n": 2,
+          "label": "Fried Ebi Roll"
+        },
+        {
+          "n": 3,
+          "label": "California Roll"
+        },
+        {
+          "n": 4,
+          "label": "Teriyaki Chicken Roll"
+        }
+      ],
+      "hosomaki": [
+        {
+          "n": 5,
+          "label": "Tuna-Mayo-Maki"
+        },
+        {
+          "n": 6,
+          "label": "Gurken-Maki"
+        },
+        {
+          "n": 7,
+          "label": "Avocado-Maki"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "code": "B",
+      "cat": "boxen",
+      "name": "Sushi Box Lachs",
+      "price": 22,
+      "img": "img/box-b.jpg",
+      "soldOut": true,
+      "desc": "Lachs Avo mit Sesam Rolle (8 Stück), Lachs Hosomaki (6 Stück), mit Beilage."
+    },
+    {
+      "id": "c",
+      "code": "C",
+      "cat": "nigiri",
+      "name": "Lachs Nigiri (6 Stück)",
+      "price": 14,
+      "img": "img/nigiri-c.jpg",
+      "desc": ""
+    },
+    {
+      "id": "j",
+      "code": "J",
+      "cat": "uramaki",
+      "name": "Veggie Roll",
+      "price": 13,
+      "img": "img/roll-j-veggie.jpg",
+      "desc": "Gurke · Karotten · Avocado · Ei · Sesam"
+    },
+    {
+      "id": "k",
+      "code": "K",
+      "cat": "uramaki",
+      "name": "Tunamayo Roll",
+      "price": 14,
+      "img": "img/roll-k-tunamayo.jpg",
+      "desc": "Thunfisch · Mayonnaise · Gurke"
+    },
+    {
+      "id": "l",
+      "code": "L",
+      "cat": "uramaki",
+      "name": "Räucherlachs mit Frischkäse Roll",
+      "price": 14,
+      "img": "img/roll-l-raeucherlachs.jpg",
+      "desc": "Räucherlachs · Frischkäse · Avocado · Salat · Sesam"
+    },
+    {
+      "id": "m",
+      "code": "M",
+      "cat": "uramaki",
+      "name": "Fried Ebi Roll",
+      "price": 14,
+      "img": "img/roll-m-friedebi.jpg",
+      "desc": "Frittierte Crevetten · Tonkatsu Sauce · Salat · Mayonnaise · Sesam"
+    },
+    {
+      "id": "n",
+      "code": "N",
+      "cat": "uramaki",
+      "name": "California Roll",
+      "price": 14,
+      "img": "img/roll-n-california.jpg",
+      "desc": "Surimi · Gurke · Avocado · Ei · Mayonnaise · Sesam"
+    },
+    {
+      "id": "o",
+      "code": "O",
+      "cat": "uramaki",
+      "name": "Teriyaki Chicken Avo Roll",
+      "price": 14,
+      "img": "img/roll-o-teriyaki.jpg",
+      "desc": "Poulet mit Teriyaki Sauce · Mayonnaise · Sesam · Gurke oder Avocado"
+    },
+    {
+      "id": "p",
+      "code": "P",
+      "cat": "uramaki",
+      "name": "Lachs Avo mit Sesam Roll",
+      "price": 16,
+      "img": "img/roll-p-lachsavo.jpg",
+      "desc": "Lachs · Avocado · Mayonnaise · Sesam"
+    },
+    {
+      "id": "q",
+      "code": "Q",
+      "cat": "uramaki",
+      "name": "Lachs Avo mit Tobiko Roll",
+      "price": 17,
+      "img": "img/roll-q-tobiko.jpg",
+      "desc": "Lachs · Avocado · Mayonnaise · Tobiko"
+    },
+    {
+      "id": "r",
+      "code": "R",
+      "cat": "hosomaki",
+      "name": "Gurken-Maki",
+      "price": 6,
+      "img": "img/hosomaki.jpg",
+      "desc": ""
+    },
+    {
+      "id": "s",
+      "code": "S",
+      "cat": "hosomaki",
+      "name": "Avocado-Maki",
+      "price": 6,
+      "img": "img/maki_avocado.png",
+      "desc": ""
+    },
+    {
+      "id": "t",
+      "code": "T",
+      "cat": "hosomaki",
+      "name": "Tunamayo-Maki",
+      "price": 7,
+      "img": "img/maki_tunamayo.png",
+      "desc": ""
+    },
+    {
+      "id": "u",
+      "code": "U",
+      "cat": "hosomaki",
+      "name": "Lachs-Maki",
+      "price": 8,
+      "img": "img/maki_salmon.png",
+      "desc": ""
+    },
+    {
+      "id": "v",
+      "code": "V",
+      "cat": "hosomaki",
+      "name": "Lachs Avo Maki",
+      "price": 8,
+      "img": "img/maki_salmon_avo.png",
+      "desc": ""
+    },
+    {
+      "id": "w",
+      "code": "W",
+      "cat": "hosomaki",
+      "name": "Fried Ebi Maki",
+      "price": 8,
+      "img": "img/maki_fried_ebi.png",
+      "desc": ""
+    },
+    {
+      "id": "x",
+      "code": "X",
+      "cat": "beilagen",
+      "name": "Vegi-Frühlingsrollen (2 Stück)",
+      "price": 6,
+      "img": "img/side-x-springrolls.jpg",
+      "desc": "Chinakohl · Karotten · Zwiebeln · Grüne Paprika · Glasnudeln"
+    },
+    {
+      "id": "y",
+      "code": "Y",
+      "cat": "beilagen",
+      "name": "Gyoza (5 Stück)",
+      "price": 8,
+      "img": "img/side-y-gyoza.jpg",
+      "desc": "Schweinefleisch · Zwiebel · Chinakohl · Knoblauch · Schnittlauch"
+    },
+    {
+      "id": "xx1",
+      "code": "XX1",
+      "cat": "frozen",
+      "name": "Vegi-Frühlingsrollen, 10 Stück",
+      "price": 25,
+      "img": "img/frozen-vegrolls.jpg",
+      "soldOut": true,
+      "desc": "Handgemacht, ohne Konservierungsstoffe – tiefgekühlt."
+    },
+    {
+      "id": "xx2",
+      "code": "XX2",
+      "cat": "frozen",
+      "name": "Vegi-Frühlingsrollen, 20 Stück",
+      "price": 48,
+      "img": "img/frozen-vegrolls.jpg",
+      "soldOut": true,
+      "desc": "Handgemacht, ohne Konservierungsstoffe – tiefgekühlt."
+    },
+    {
+      "id": "yy1",
+      "code": "YY1",
+      "cat": "frozen",
+      "name": "Gyoza, 10 Stück",
+      "price": 13,
+      "img": "img/frozen-gyoza.jpg",
+      "soldOut": true,
+      "desc": "Handgemacht, ohne Konservierungsstoffe – tiefgekühlt."
+    },
+    {
+      "id": "yy2",
+      "code": "YY2",
+      "cat": "frozen",
+      "name": "Gyoza, 20 Stück",
+      "price": 25,
+      "img": "img/frozen-gyoza.jpg",
+      "soldOut": true,
+      "desc": "Handgemacht, ohne Konservierungsstoffe – tiefgekühlt."
+    },
+    {
+      "id": "yy3",
+      "code": "YY3",
+      "cat": "frozen",
+      "name": "Gyoza, 30 Stück",
+      "price": 36,
+      "img": "img/frozen-gyoza.jpg",
+      "soldOut": true,
+      "desc": "Handgemacht, ohne Konservierungsstoffe – tiefgekühlt."
+    },
+    {
+      "id": "so1",
+      "code": "SO1",
+      "cat": "extras",
+      "name": "Sojasauce (8 ml)",
+      "price": 0.2,
+      "img": "img/sojafisch.jpg",
+      "desc": "Zu jedem Artikel wird eine Sojasauce beigelegt. Falls Sie weitere benötigen, bestellen Sie diese bitte zusätzlich."
+    },
+    {
+      "id": "so2",
+      "code": "SO2",
+      "cat": "extras",
+      "name": "Essstäbchen",
+      "price": 0.2,
+      "img": "img/chopstick.jpg",
+      "desc": "Keine Essstäbchen inklusive – bitte extra bestellen, wenn benötigt."
+    }
+  ]
+}
